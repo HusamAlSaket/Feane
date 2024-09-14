@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,700;0,900;1,100;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+.slider .content-wrapper {
+  padding-top: 100px;
+  margin-left: 30px;
+  padding-left: 30px;
+}
+.slider .content-wrapper h2 {
+  align-items: left;
+}
+.slider .content-wrapper a {
+  margin-top: 10px;
+}
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  align-items: center;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.nav-items {
+  display: flex;
+  font-size: 16px;
+  line-height: 16px;
+  list-style: none;
+  margin-left: 40px;
+}
+.nav-link {
+  margin-right: 20px;
+}
+.slider {
+  color: white;
+  background-image: url("../images/slider.jpg");
+  background-size: 100% 100%;
+  height: 100vh;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.menu-list a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-list {
+  padding: 0;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style-type: none;
+  margin: 45px 0 20px 0;
+}
+.order {
+  justify-content: space-between;
+  display: inline-block;
+  margin-right: 20px;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffd700;
+  color: #333;
+  text-decoration: none;
+  border: 2px solid #ffc107;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.button:hover {
+  background-color: #ffc107;
+  border-color: #ffa000;
+  color: #fff;
+}
+.brand {
+  font-weight: bold;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+/* General container for page */
+.page1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.page2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.page3 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.father {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px; /* Fixed width for the card */
+  text-align: center;
+  padding: 20px;
+}
+
+/* Image styling */
+.father img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Text content inside each card */
+.father h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.father p {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.father span {
+  font-size: 1.2em;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-cart-shopping {
+  margin-left: 10px;
+  color: #ffd700;
+}
+
+/* Cart button hover effect */
+.fa-cart-shopping:hover {
+  color: #ffa000;
+}
+.mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider2 {
+  background-image: url(../images/item13.png);
+  background-size: 100% 100%;
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  background-color: black;
+}
+.slider-wrapper {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+.ads {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222831;
+  height: 700px;
+}
+.feane {
+  color: #fff;
+}
+.ads img {
+  float: left;
+  max-width: fit-content;
+  max-height: fit-content;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.ads .feane {
+  float: right;
+  width: 50%;
+  padding-top: 250px;
+  padding-left: 100px;
+}
+
+.booking-form h1 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.booking-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-form input,
+.booking-form select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.booking-form button {
+  padding: 10px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.booking-form button:hover {
+  background-color: #ffaa00;
+}
+.offers {
+  margin: 45px 0;
+}
+
+.offers-wrapper {
+  display: flex;
+  gap: 30px;
+}
+.offers-wrapper .item {
+  display: flex;
+  gap: 20px;
+  background-color: #222831;
+  align-items: center;
+  padding: 20px 15px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+.offers-wrapper .item .img-wrapper {
+  border: 5px solid #ffbe33;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.offers-wrapper .item img {
+  width: 165px;
+  height: 165px;
+  transition: all 0.3s ease-in;
+}
+.offers-wrapper .item img:hover {
+  transform: scale(1.1);
+}
+
+.food-items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.food-items .item {
+  width: 30%;
+  margin-top: 40px;
+  background-color: #0c0c0c;
+}
+
+.food-items .item .img-wrapper {
+  background-color: #f1f2f3;
+  border-bottom-left-radius: 45px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+.food-items .item img {
+  width: 152px;
+  height: 145px;
+  object-fit: cover;
+  border-bottom-left-radius: 45px;
+}
+.food-items .item .content-wrapper {
+  padding: 25px;
+  color: white;
+}
+.food-items .item .content-wrapper .price {
+justify-content: space-between;
+display: flex;
+}
+.book-table{
+  padding: 30px;
+}
+.book-table .content-wrapper {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 20px;
+/*  flex-wrap: wrap; */
+}
+
+.book-table .content-wrapper .booking-form {
+  width: 50%;
+}
+.book-table .content-wrapper .booking-map {
+  width: 50%;
+}
+.book-table .content-wrapper .booking-map iframe {
+  width: 100%;
+}
+
+.review .details-box {
+  background-color: #222831;
+  color: #ffffff;
+  padding: 25px 25px 15px 25px;
+  border-radius: 5px;
+}
+
+
+.review .img-wrapper img {
+  border-radius: 50%;
+  border: 5px solid #ffbe33;
+  position: relative;
+  width: 115px;
+  height: 115px;
+}
+
+.review .img-wrapper {
+    position: relative;
+    margin-top: 20px;
+  }
+
+.review .img-wrapper::before {
+  content: "";
+  position: absolute;
+  left: 55px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #ffbe33;
+  transform: rotate(45deg) translateX(-50%);
+}
+
+.review .item-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.review .item {
+  width: 50%;
+}
+.mid{
+  padding: 20px;
+}
+.feane a{
+margin-top: 20px;
+}
+.menu h2{
+  display: flex;
+align-items: center;
+  justify-content: center;
+}
+.menu-list .active{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #212832;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+.offers .item-wrapper{
+color: white;
+}
+.offers .item-wrapper h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+color: black;
+}
+.offers .item-wrapper h3{
+  margin: 10px;
+}
+.review h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  font-size: xx-large;
+}
+.footer{
+  background-color: #212832;
+}
+.connect{
+ display: flex;
+ margin: 100px;
+ color: white;
+}
+.contact-us{
+ display: flex;
+ gap: 120px;
+ padding: 75px 0 40px 0;
+text-align: center;
+}
+.org{
+ display: flex;
+ flex-direction: column;
+ padding-left: 40px;
+}
+.org h2{
+  padding-bottom: 20px;
+ 
+}
+.org p{
+ padding-bottom: 20px;
+}
+.org span{
+  padding-bottom: 10px;
+}
+.copyright{
+  color: white;
+}
+.cmark{
+  color: white;
+}
+.strike{
+  padding-left: 400px;
+  align-items: center;
+  justify-content: center;
+}
